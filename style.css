@@ -1,0 +1,121 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(210, 60%, 98%);
+    font-family: 'Plus Jakarta Sans',sans-serif;
+}
+h1,h2,a{
+    display: inline;
+    font-weight: 800;
+}
+h1{
+    font-size: 1.3em;
+}
+h2{
+    color: hsl(224, 21%, 14%);
+    margin-right: 0.3rem;
+}
+h2,a{
+    font-size: 1em;
+}
+h2:hover,a:hover{
+    cursor: pointer;
+    color: hsl(219, 85%, 26%);
+}
+a{
+    margin-left: 0.3rem;
+    text-decoration: none;
+}
+.mark{
+    color: hsl(219, 12%, 42%);
+}
+span{
+    margin-left: 1em;
+    padding: 1px 10px;
+    font-size: 0.8em;
+    font-weight: 100;
+    border-radius: 5px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(219, 85%, 26%);
+}
+section{
+    width: 55%;
+    padding: 50px;
+    margin: 5% auto;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 2px 4px 6px hsla(219, 12%, 42%, 0.5);
+}
+img{
+    height: 12vh;
+    padding-right: 10px;
+    align-self: flex-start;
+}
+.image-chess{
+    height: 8vh;
+}
+.kim-div > :last-child {
+    margin-left: auto;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.avatar-div,.avatar-div-blue,.kim-div,.container{
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    justify-content: left;
+    color: hsl(219, 12%, 42%);
+}
+.container{
+    align-items: flex-start;
+    flex-direction: column;
+}
+.private-msg{
+    padding: 25px;
+    border-radius: 5px;
+    margin-left: 15%;
+    margin-bottom: 30px;
+    color: hsl(219, 12%, 42%);
+    border: 2px solid hsl(205, 33%, 90%);
+}
+.private-msg:hover{
+    cursor: pointer;
+    background-color: hsl(205, 33%, 90%);
+}
+.avatar-div-blue{
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color: hsl(210, 60%, 98%);
+}
+.activity{
+    display: inline-table;
+}
+.chess-club{
+    color: hsl(219, 85%, 26%, 0.8);
+}
+.red-dot {
+    color: hsl(1, 90%, 64%);
+    margin-left: 5px;
+    font-size: 1.5em;
+    background-color: transparent;
+  }
+@media screen and (max-width: 1000px) {
+    section{
+        width: 90%;
+        padding: 15px;
+    }
+    img{
+        height: 10vh;
+    }
+    .private-msg{
+        margin-left: 23%;
+        width: 61%;
+    }
+}
